@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="wrapper">
+
+    
+        <div class="menu">
+            <header>
+                <div class="logo-header">
+                    <img src="images/nimbus.svg" alt="logo-header">
+                </div>
+                <nav >
+                    <ul>
+                        <li onclick="openMenuFoto()" class="dropbtn">Портфолио ᨆ</li>
+                        <div id="myDropdownFoto" class="dropdown-content">
+                            <a href="#">Фотографии</a>
+                            <a href="#">Видео</a>
+                        </div>
+                        <li onclick="openMenuCash()" class="dropbtn">Цены ᨆ</li>
+                        <div id="myDropdownCash" class="dropdown-content dropdownMenuCash">
+                            <a href="#">Цены</a>
+                            <a href="#">Гарантия и возврат</a>
+                            <a href="#">Наш договор</a>
+                            <a href="#">Оплата</a>
+                        </div>
+                        <li onclick="openMenuServise()" class="dropbtn">Услуги ᨆ</li>
+                        <div id="myDropdownService" class="dropdown-content dropdownMenuServise">
+                            <a href="#">Услуги</a>
+                            <a href="#">Роспись стен</a>
+                            <a href="#">Дизайн интерьера</a>
+                            <a href="#">Роспись стен в офисе</a>
+                            <a href="#">Граффити</a>
+                        </div>
+                        <li onclick="openMenuContact()" class="dropbtn">Конакты ᨆ</li>
+                        <div id="myDropdownContact" class="dropdown-content dropdownMenuContact">
+                            <a href="#">Контакты</a>
+                        </div>
+                        <li onclick="openMenuAboutUs()" class="dropbtn">О нас ᨆ</li>
+                        <div id="myDropdownAboutUs" class="dropdown-content dropdownMenuAboutUs">
+                            <a href="#">О нас</a>
+                            <a href="#">Вакансии</a>
+                            <a href="#">Вопросы про роспись стен</a>
+                            <a href="#">Реквизиты компании</a>
+                            <a href="#">СМИ о нас</a>
+                            <a href="#">Отзывы</a>
+                        </div>
+                    </ul>
+                </nav>
+                <div class="social-links">
+                    <img src="images/telegram.svg" alt="telegram">
+                    <img src="images/whatsapp.svg" alt="whatsapp">
+                    <img src="images/e-mail.svg" alt="e-mail">
+                </div>
+                <div class="tel-number">
+                    <img src="images/phone.svg" alt="phone">
+                    <a href="tel:89650165431">8 &#40;965&#41; 016&ndash;54&ndash;31</a>
+                </div>
+            </header>
+        </div>
+
+            <section class="first-container center">
+                <div class="orderSPB">
+                    <div class="sectionOrder">
+                        <h1>Роспись стен в Санкт-Петербурге</h1>
+                        <p>Закажите роспись стен в Санкт-Петербурге 
+                            от художественной студии Нимбус. Авторская техника росписи.
+                            Оформляем квартиры, детские и офисы от 1 дня. Создаем эскизы, сами закупаем материалы и оставляем всё в чистоте.
+                            Вам нужно только позвонить нам.</p>
+                            <form>
+                                <input id="phone" 
+                                    type="tel" 
+                                    name="phone" 
+                                    value="+375 (__) ___-__-__" 
+                                    pattern="^\+375(\s+)?\(?(17|25|29|33|44)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+                                    <button>Заказать</button>
+                                </form>
+                    </div>
+                    <div class="sectionImg">
+                        <img src="images/boy.png" alt="foto-order">
+                    </div>
+                    
+                </div>
+            </section>
+
+            <section class="second-container center">
+                <div class="textInNews">
+                    <h4>Мы команда</h4>
+                    <p>О нас написали в Деловом Петербурге, Невских Новостях, Авито Подкасте, Подкасте Либо-Либо, vc.ru и многие другие. 
+                        Также мы открыли свою школу росписи стен, запустили франшизу и зарегистрировали товарный знак.</p>
+                </div>
+                <div class="ourProgress">
+                    <p class="box1">Наши успехи</p>
+                    <p class="box2">За <span>2021</span> год в Санкт-Петербурге</p>
+                    <p class="box3"><span>10</span> детских</p>
+                    <p class="box4"><span>14</span> офисов</p>
+                    <p class="box5"><span>52</span> пекарни</p>
+                    <p class="box6"><span>12</span> квартир</p>
+                    <p class="box7"><span>7</span> салонов красоты</p>
+                    <p class="box8"><span>3</span> школы</p>
+                    <p class="box9"><span>2</span> кофейни</p>
+                    <p class="box10"><span>1</span> отель</p>
+                </div>
+            </section>
+
+            <section class="thirdСontainer">
+                <h4>Услуги</h4>
+                <div class="containerCardServise center">
+                    <div class="cardServise">
+                        <div class="fotoCard">
+                            <img src="images/card1.png" alt="foto1">
+                        </div>
+                        <h5>Роспись стен в офисе</h5>
+                        <p><a href="#">Подробнее</a></p>
+                    </div>
+                    <div class="cardServise">
+                        <div class="fotoCard">
+                            <img src="images/card2.png" alt="foto2">
+                        </div>
+                        <h5>Графити</h5>
+                        <p><a href="#">Подробнее</a></p>
+                    </div>
+                    <div class="cardServise">
+                        <div class="fotoCard">
+                            <img src="images/card3.png" alt="foto3">
+                        </div>
+                        <h5>Роспись в детской</h5>
+                        <p><a href="#">Подробнее</a></p>
+                    </div>
+                    <div class="cardServise">
+                        <div class="fotoCard">
+                            <img src="images/card4.png" alt="foto4">
+                        </div>
+                        <h5>Роспись в квартире</h5>
+                        <p><a href="#">Подробнее</a></p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="ourTeam center">
+                <h4>Наша дружная команда</h4>
+                <div class="gallery">
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee1.png" alt="employee1">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee2.png" alt="employee2">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee3.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee1.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee2.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee3.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee1.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee2.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee3.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                    <div class="employeeItem">
+                        <div class="foto">
+                            <img src="images/employee2.png" alt="employee3">
+                        </div>
+                        <p>Вероника</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="cashOfService center">
+                <h4>Цена росписи стен</h4>
+                <div class="contentCard">
+                    <div class="cardCash">
+                        <h6>Просто</h6>
+                        <p><span>от 900 ₽</span> за м2;</p>
+                        <p>Геометрия, линии и роспись по скотчу</p>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="cardCash">
+                        <h6>Детально</h6>
+                        <p><span>от 2000 ₽</span> за м2;</p>
+                        <p>Более детальные прорисовки 
+                            и от двух художников</p>
+                        <a href="#">Заказать</a>
+                    </div>
+                    <div class="cardCash">
+                        <h6>Идеально</h6>
+                        <p><span>от 2500 ₽</span> за м2;</p>
+                        <p>Профессиональные рисунки 
+                            с тенями и деталями</p>
+                        <a>Заказать</a>
+                    </div>
+                </div>
+
+                <div class="conditions">
+                    <p>Стоимость художественной росписи стен в Санкт-Петербурге рассчитывается индивидуально. На цену влияет размер рисунка, сложность, особенности поверхности и вид материалов. При заказе большого объема мы делаем скидки. 
+                        Если у вас ограниченный бюджет, мы подстраиваемся и подбираем несложные рисунки. Стоимость материалов всегда оплачивается отдельно. Также отдельно оплачивается эскиз. Закажите роспись стен в спб у нас на сайте.</p>
+                </div>
+                
+                <div class="order">
+                    
+                        <h5>Заказать роспись стен</h5>
+                        <p>*согласие на обработку <a href="#">персональных данных</a></p>
+                   
+                    
+                    <form>
+                        <input id="phone" 
+                            type="tel" 
+                            name="phone" 
+                            value="+375 (__) ___-__-__" 
+                            pattern="^\+375(\s+)?\(?(17|25|29|33|44)\)?(\s+)?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+                            <button>Заказать</button>
+                    </form>
+                </div>
+
+            </section>
+
+            <section class="weTeam center">
+                <h4>Мы команда</h4>
+                <div class="teamGallery">
+                    <div class="teamCard">
+                        <div class="fotoTeam">
+                            <div class="empty"></div>
+                            <div class="foto">
+                                <img src="images/team.png" alt="fotoTeam">
+                            </div>
+                        </div>
+                        <p>Анна</p>
+                        <div class="rating"> 
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                    </div>
+                    <div class="teamCard">
+                        <div class="fotoTeam">
+                            <div class="empty"></div>
+                            <div class="foto">
+                                <img src="images/team.png" alt="fotoTeam">
+                            </div>
+                        </div>
+                        <p>Анна</p>
+                        <div class="rating"> 
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown dummy text ever since the 1500s, when an unknown </p>
+                    </div>
+                    <div class="teamCard">
+                        <div class="fotoTeam">
+                            <div class="empty"></div>
+                            <div class="foto">
+                                <img src="images/team.png" alt="fotoTeam">
+                            </div>
+                        </div>
+                        <p>Анна</p>
+                        <div class="rating"> 
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                            <svg width="32" height="32" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+                                <path d="M31.547 12a.848.848 0 00-.677-.577l-9.427-1.376-4.224-8.532a.847.847 0 00-1.516 0l-4.218 8.534-9.427 1.355a.847.847 0 00-.467 1.467l6.823 6.664-1.612 9.375a.847.847 0 001.23.893l8.428-4.434 8.432 4.432a.847.847 0 001.229-.894l-1.615-9.373 6.822-6.665a.845.845 0 00.214-.869z" />
+                            </svg>
+                        </div>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+                    </div>
+                </div>
+                
+            </section>
+
+
+
+            <footer>
+                <div class="icon center">
+                   <img src="images/youtube.svg" alt="youtube"></a> 
+                    <a href="#"><img src="images/telegramIcon.svg" alt="telegram"></a>
+                    <a href="#"><img src="images/vk.svg" alt="vk"></a>
+                </div>
+                <div class="footerMenu center">
+                    <div class="portfolio">
+                        <h6>Портфолио</h6>
+                        <ul>
+                            <li><a href="#">Фотографии</a></li>
+                            <li><a href="#">Видео</a></li>
+                        </ul>
+                    </div>
+                    <div class="price">
+                        <h6>Условия</h6>
+                        <ul>
+                            <li><a href="#">Цены</a></li>
+                            <li><a href="#">Гарантия и возврат</a></li>
+                            <li><a href="#">Наш договор на роспись</a></li>
+                            <li><a href="#">Оплата</a></li>
+                        </ul>
+                    </div>
+                    <div class="information">
+                        <h6>Информация</h6>
+                        <ul>
+                            <li><a href="#">Услуги</a></li>
+                            <li><a href="#">Роспись стен</a></li>
+                            <li><a href="#">Дизайн интерьера</a></li>
+                            <li><a href="#">Роспись стен в офисе</a></li>
+                            <li><a href="#">Граффити</a></li>
+                        </ul>
+                    </div>
+                    <div class="contact">
+                        <h6>Контакты</h6>
+                        <ul>
+                            <li><a href="#">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="aboutUs">
+                        <h6>О нас</h6>
+                        <ul>
+                            <li><a href="#">Вопросы про роспись стен</a></li>
+                            <li><a href="#">Вакансии</a></li>
+                            <li><a href="#">Реквизиты компании</a></li>
+                            <li><a href="#">СМИ о нас</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <p class="center">&#169; 2018-2023, Nimbus - скоростная роспись стен</p>
+
+                
+                
+            </footer>
+            
+        
+        
+
+   </div> 
+
+   <script src="script.js"></script>
+</body>
+</html>
